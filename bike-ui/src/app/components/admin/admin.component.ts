@@ -23,4 +23,6 @@ export class AdminComponent implements OnInit {
     );
   }
 
+  /**TO DO: Delete bike by id*/
+
 }
