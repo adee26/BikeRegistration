@@ -26,7 +26,7 @@ export class BikeService {
 
   saveBike(bike) {
     // let body = JSON.stringify(bike);
-    return this.http.post('/server/api/v1/bike', bike, httpOption);
+    return this.http.post('/server/api/v1/bikes', bike, httpOption);
   }
 
   getBikeBySeller(seller: string){

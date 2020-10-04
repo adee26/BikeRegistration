@@ -26,7 +26,7 @@ public class BikeController {
     }
 
     @PostMapping("/api/v1/bikes")
-    public void createBike(@RequestBody Bike bike){
+    public void saveBike(@RequestBody Bike bike){
         bikeService.createBike(bike);
     }
 
